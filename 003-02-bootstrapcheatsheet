@@ -1,0 +1,68 @@
+Multiple class names as an HTML attribute value:- 
+          We can provide multiple class names separated by space as a value to the HTML class attribute.
+          Syntax: <tag class = "name1 name2 name3 name4 ...">Content</tag>
+          HTML attribute value: name1 name2 name3 name4 ...
+          class names: name1, name2, name3, and name4 
+
+primary - blue (#3597f2)
+secondary - grey (#6C757D)
+success - green (#28A745)
+danger - red (#DC3545)
+warning - yellow (#FFC107)
+info - blue (#17A2B8)
+light - white (#FFFFFF) 
+dark - black (#343A40)    
+
+0.1-BUTTONS :- 
+            To use buttons using CSS:- 
+                          <button class="btn btn-primary">Get Started</button>
+                          <button class="btn btn-secondary">Get Started</button>
+                          <button class="btn btn-success">Get Started</button>
+                          <button class="btn btn-danger">Get Started</button>
+                          <button class="btn btn-warning">Get Started</button>
+                          <button class="btn btn-info">Get Started</button>
+                          <button class="btn btn-light">Get Started</button>
+                          <button class="btn btn-dark">Get Started</button>
+
+            OUTLINE BUTTON :- These buttons don't have background color and just have color text. 
+                              Bootstrap provides us with different types of buttons. One of them is outline buttons, which don't have a background color.
+                              To add the outline buttons in our HTML document, just replace btn in the above class names with the btn-outline. 
+                                              <button class="btn btn-outline-primary">Get Started</button>
+                                              <button class="btn btn-outline-secondary">Get Started</button>
+                                              <button class="btn btn-outline-success">Get Started</button>
+                                              <button class="btn btn-outline-danger">Get Started</button>
+                                              <button class="btn btn-outline-warning">Get Started</button>
+                                              <button class="btn btn-outline-info">Get Started</button>
+                                              <button class="btn btn-outline-light">Get Started</button>
+                                              <button class="btn btn-outline-dark">Get Started</button>
+
+            Note :- By default, Bootstrap class name btn has no background color.          
+0.2-TEXT COLORS:-
+            To apply different colors to the text, Bootstrap has the following class names:
+                              <p class="text-primary">Tourism</p>
+                              <p class="text-secondary">Tourism</p>
+                              <p class="text-success">Tourism</p>
+                              <p class="text-danger">Tourism</p>
+                              <p class="text-warning">Tourism</p>
+                              <p class="text-info">Tourism</p>
+                              <p class="text-light">Tourism</p>
+                              <p class="text-dark">Tourism</p>       
+0.3 Text transform:-
+            To apply different cases like upper case, lower case, etc. to the text, Bootstrap has the following class names:
+                              <p class="text-uppercase">Plan your TRIP.</p>
+                              <p class="text-capitalize">plan your trip.</p>
+                              <p class="text-lowercase">PLAN your TRIP.</p>         
+
+
+0.4 Background colors:-
+            To apply different background colors to an HTML element, Bootstrap has the following class names:
+                          <div class="bg-primary"><p>Tourism</p></div>
+                          <div class="bg-secondary"><p>Tourism</p></div>
+                          <div class="bg-success"><p>Tourism</p></div>
+                          <div class="bg-danger"><p>Tourism</p></div>
+                          <div class="bg-warning"><p>Tourism</p></div>
+                          <div class="bg-info"><p>Tourism</p></div>
+                          <div class="bg-light"><p>Tourism</p></div>
+                          <div class="bg-dark"><p>Tourism</p></div>
+
+NOTE : -    Using predefined bootstrap class names as a selector in our CSS Ruleset may give unexpected results.
