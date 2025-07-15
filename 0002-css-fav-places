@@ -1,0 +1,24 @@
+.favorite-place-bg-container{
+    background-image: url('tourism.jpg');
+    background-size: cover;
+    height: 100vh;
+} 
+.favorite-place-main-heading{
+    color: blueviolet;
+    text-align: center; 
+    font-family: Roboto; 
+    font-size: 28px; 
+}
+.favorite-place-card-container{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 50px;
+}
+.favorite-place-sub-heading{
+    color: red; 
+}
+.favorite-place-img{
+    height: 90px;
+    width: 90px;
+}
